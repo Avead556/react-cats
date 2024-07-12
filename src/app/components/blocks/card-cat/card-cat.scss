@@ -1,0 +1,27 @@
+.cat-card {
+  font-weight: 700;
+
+  &__image {
+    img {
+      position: relative;
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+
+    }
+  }
+
+  &__content {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.82) 100%);
+  }
+
+  &__title {
+    color: #FAFF00;
+  }
+
+  &__description {
+    font-size: 18px;
+    color: white;
+  }
+}

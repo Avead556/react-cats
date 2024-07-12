@@ -1,0 +1,93 @@
+.cat-add-block {
+  background: #867CF4;
+
+  &__circle {
+    position: absolute;
+    width: 457px;
+    height: 457px;
+    left: 793px;
+    top: -22px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+
+  }
+
+  &__second-circle {
+    position: absolute;
+
+    width: 330px;
+    height: 330px;
+    top: 86px;
+    left: 732px;
+
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+  }
+}
+
+.course-item {
+  &__price {
+    color: #FAFF00;
+    font-size: 28px;
+  }
+
+  &__title {
+    font-size: 18px;
+    color: white;
+  }
+
+  &__checkbox {
+    position: absolute;
+    right: 12px;
+    top: 11px;
+  }
+
+  &__circle {
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    right: 0;
+    top: 22px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  &__second-circle {
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    top: 44px;
+    right: 35px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+  }
+}
+
+.cat-form {
+  &__input-wrapper {
+    min-height: 55px;
+    background: white;
+    box-shadow: none;
+    border: 1px solid #DBDBDB
+  }
+
+  &__input {
+    padding-left: 20px;
+  }
+}
+
+.total-block {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22.32px;
+  text-align: left;
+
+  span {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34.72px;
+    text-align: left;
+    color: #867CF4;
+
+  }
+}

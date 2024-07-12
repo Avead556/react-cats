@@ -1,0 +1,25 @@
+.block-cats {
+  &__title {
+    color: #2E4054;
+
+  }
+
+  &__discription {
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  &__list {
+    &-item {
+      height: 424px;
+
+      &:nth-child(2) {
+        height: 320px;
+      }
+
+      &:nth-child(3) {
+        height: 390px;
+      }
+    }
+  }
+}

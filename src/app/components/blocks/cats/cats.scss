@@ -1,0 +1,70 @@
+.cats {
+  h1 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 34.72px;
+    text-align: left;
+    color: #B2C1D1;
+
+  }
+
+  button {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21px;
+    text-align: center;
+
+  }
+
+  &__info {
+    position: relative;
+
+    :after {
+      content: '';
+      height: 231px;
+      width: 1px;
+
+      position: absolute;
+      right: 0;
+      top: 28px;
+
+      background-color: #DFE6FF;
+    }
+  }
+
+  &__description {
+    color: #B2C1D1;
+
+    h2 {
+      color: #2E4054;
+    }
+  }
+
+  &__label {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22.32px;
+    text-align: left;
+    color: rgba(178, 193, 209, 1);
+  }
+
+  &__card {
+    max-width: 547px;
+
+    &-content {
+      min-height: 124px;
+      background: #867CF433;
+      box-shadow: none;
+    }
+
+
+    &-course {
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 24.8px;
+      text-align: left;
+      color: #867CF4;
+    }
+
+  }
+}
